@@ -1,0 +1,46 @@
+erika@192 exercicios % git log
+commit 9a2f317027de2860ed629f0e01d6eefb1f9a82ba (HEAD -> master)
+Author: Erika <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 19:34:38 2024 -0300
+
+    commit 3 aula 03
+
+commit e2f090fa3df5149b76d4baaeec01d27be860e5d5
+:...skipping...
+commit 9a2f317027de2860ed629f0e01d6eefb1f9a82ba (HEAD -> master)
+Author: Erika <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 19:34:38 2024 -0300
+
+    commit 3 aula 03
+
+commit e2f090fa3df5149b76d4baaeec01d27be860e5d5
+Author: Erika <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 19:33:35 2024 -0300
+
+    commit 2 aula 03
+
+commit da88a021118e2188da3fb6c1d6918052648568ba
+Author: Erika <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 19:32:06 2024 -0300
+
+    initial commit aula 03
+
+commit 7611c4cb582106292eb10e0f3f638bd78a5f852e (origin/master)
+Merge: 53d8678 620d739
+Author: Erika <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 19:26:13 2024 -0300
+
+    Merge branch 'master' of https://github.com/erikadeolima/html_css_coder
+
+commit 53d86786350b05254b65a7e62d69398187b8d6e7
+Author: erikadeolima <erikadeo.lima@hotmail.com>
+Date:   Thu Jun 6 18:59:49 2024 -0300
+
+    inicializa repo
+
+commit 620d739bb365b1bea7688852274e502748492111
+Author: Erika Lima <erikadeo.lima@hotmail.com>
+Date:   Tue Jun 4 20:11:36 2024 -0300
+
+    Initial commit
+(END)
