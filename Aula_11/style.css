@@ -1,0 +1,9 @@
+.text_box{
+    width: 150px;
+    height: 100px;
+    border: 3px dotted black;
+    margin: 5px 8px 5px 8px;
+    background-color: red;
+    overflow: scroll;
+    padding: 6px 9px;
+}

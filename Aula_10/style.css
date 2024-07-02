@@ -1,0 +1,16 @@
+
+
+
+.desafio1{
+    color: orange;
+    font-size: 20px;
+}
+
+#lista1, #lista2, .marker span{
+    color: blue;
+    background-color: gray;
+}
+
+.marker{
+    color: red;
+}
