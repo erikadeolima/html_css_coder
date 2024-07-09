@@ -1,0 +1,115 @@
+.aula13{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+
+
+.exercicio1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 12px;
+}
+.hover-example:hover {
+    background-color: yellow;
+    color: red;
+  }
+
+  .active-example:active {
+    background-color: blue;
+    color: white;
+  }
+  .visited-example:visited {
+    color: purple;
+  }
+
+  .focus-example:focus {
+    border-color: green;
+    box-shadow: 0 0 10px green;
+  }
+
+  .teste_child :first-child{
+    color: red;
+    text-decoration: overline;
+  }
+
+  .teste_child :last-child{
+    color: green;
+    text-decoration: wavy;
+  }
+
+  .teste_child li:nth-child(3) {
+    color: yellow;
+}
+.teste_child :not(.not_child) {
+    background-color: aquamarine;
+}
+
+/* quero que quando o checkbox for checked meu botao fique habilitado, caso contrario dique desabilitado
+<form>
+<label for="email">Email:</label>
+<input type="email" id="email">
+
+<label for="terms">
+  <input type="checkbox" id="terms" required>
+  Aceito os termos e condições
+</label>
+
+<input type="submit" value="Enviar" id="submit" disabled>
+</form> */
+
+input[type="email"]:valid {
+    border-color: green;
+  }
+  
+  input[type="email"]:invalid {
+    border-color: red;
+  }
+  
+  #terms:checked {
+    accent-color: green;
+  }
+  
+  #terms:not(:checked) ~ form input[type="submit"] {
+    background-color: gray;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  #terms:checked ~ form input[type="submit"] {
+    color: blue;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+
+
+input[type="text"]::placeholder {
+    color: red;
+    font-size: 0.8em;
+  }
+  
+ 
+  p::first-letter {
+    font-size: 1.5em;
+    color: #00698f;
+  }
+  
+  
+  p::first-line {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ::selection {
+    background-color: #ff69b4;
+    color: #fff;
+  }
+  
+
+  ol li::marker {
+    color: #00698f;
+    font-size: 50px;
+  }
+
