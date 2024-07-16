@@ -1,0 +1,22 @@
+.rigth {
+    width: 200px; 
+    height: 100px; 
+    background-image: linear-gradient(165deg, red, black);
+    background-size: 100% 100%;
+  }
+
+  .radial{
+    width: 200px;
+    height: 100px;
+    background-image: radial-gradient(farthest-corner at 50% 50%, red, black);
+    background-size: 100% 100%;
+    border-radius: 50%;
+  }
+  .rotate {
+    width: 200px; 
+    height: 100px; 
+    background-image: radial-gradient(farthest-corner at 50% 50%, red, black);
+    background-size: 100% 100%;
+    transform: rotate(40deg); /* aplica uma rotação de 40 graus */
+    border-radius: 50%;
+  }
